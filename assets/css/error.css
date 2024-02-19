@@ -1,0 +1,7 @@
+.formData span, small{
+  color: #FF4E60;
+  font-family: 'Roboto';
+  display: none;
+  font-size: 0.625rem;
+  font-weight: 400;
+}
