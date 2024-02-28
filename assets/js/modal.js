@@ -128,7 +128,7 @@ form.addEventListener("submit", function (event) {
 
    // Si tous les champs sont valides, soumettre le formulaire
    if ( isFirstNameValid && isLastNameValid && isEmailValid && isValidateQuantity && isValidateBirthday && isValidateChecked && isValidateLocation) {
-    event.preventDefault();
+    // event.preventDefault();
 
     //cacher la modale de formulaire
     document.querySelector('.modal-body').style.display= "none";

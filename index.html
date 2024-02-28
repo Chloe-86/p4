@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <title>Reservation</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <link rel="stylesheet" href="./assets/css/modal.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
   <link rel="stylesheet" href="./assets/css/error.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="./assets/js/modal.js" defer></script>
@@ -78,7 +78,8 @@
               <span>"Vous devez entrer votre date de naissance."</span>
             </div>
             <div class="formData" id="checkQuantity">
-              <label>À combien de tournois GameOn avez-vous déjà participé ?</label><br>
+              <label id="game1">À combien de tournois GameOn avez-vous déjà participé ?</label>
+              <label id="game2"> À combien de tournois avez-vous déjà participé ?</label>
               <input type="number" class="text-control" id="quantity" name="quantity" min="0" max="99">
               <span>"Une valeur numérique doit etre saisie"</span>
             </div>
@@ -89,7 +90,7 @@
                 <span class="checkbox-icon"></span>
                 New York</label>
               <input class="checkbox-input" type="radio" id="location2" name="location" value="San Francisco" />
-              <label class="checkbox-label" for="location2">
+              <label class="checkbox-label" id="check2" for="location2">
                 <span class="checkbox-icon"></span>
                 San Francisco</label>
               <input class="checkbox-input" type="radio" id="location3" name="location" value="Seattle" />
