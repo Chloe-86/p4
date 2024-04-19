@@ -22,8 +22,6 @@ modalBtn.forEach((btn) => btn.addEventListener("click", launchModal));
 //close modal event
 modalBtnClose.forEach((btn) => btn.addEventListener("click", closeModal));
 
-// modalClose.addEventListener("click", closeModal);
-// btnClose.addEventListener("click", closeModal)
 
 // launch modal form
 function launchModal() {

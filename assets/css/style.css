@@ -516,6 +516,7 @@ footer {
     display: block;
     text-align: left;
   }
+
   .topnav.responsive a .fa-bars:before {
     color: white;
   }
